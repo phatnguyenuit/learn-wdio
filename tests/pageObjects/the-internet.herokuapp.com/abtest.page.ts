@@ -43,6 +43,7 @@ class ABTestPage extends Page {
   }
 
   public async useOptOutCookie() {
+    await browser.deleteCookie(this.OPT_OUT_COOKIE_NAME);
     await browser.setCookies({
       name: this.OPT_OUT_COOKIE_NAME,
       value: 'true',
