@@ -1,5 +1,5 @@
 import { expect } from '@wdio/globals';
-import abtestPage from 'tests/pageObjects/the-internet.herokuapp.com/abtest.page';
+import abtestPage from '../pageObjects/abtest.page';
 
 describe('ABTest', () => {
   // it is related to Cookies
