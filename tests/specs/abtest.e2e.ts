@@ -1,5 +1,5 @@
 import { expect } from '@wdio/globals';
-import abtestPage from '../pageObjects/abtest.page';
+import abtestPage from '../page-objects/abtest.page';
 
 describe('ABTest', () => {
   // it is related to Cookies

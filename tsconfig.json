@@ -9,8 +9,7 @@
       "@wdio/globals/types",
       "@wdio/mocha-framework",
       "@wdio/visual-service",
-      "wdio-intercept-service",
-      "deepmerge-ts/types"
+      "wdio-intercept-service"
     ],
     "skipLibCheck": true,
     "noEmit": true,
@@ -20,8 +19,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "./"
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["tests", "*.ts"]
+  "include": ["tests", "wdio*.ts"],
+  "exclude": ["node_modules"]
 }

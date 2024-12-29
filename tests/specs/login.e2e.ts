@@ -1,5 +1,5 @@
-import LoginPage from '../pageObjects/login.page';
-import SecurePage from '../pageObjects/secure.page';
+import LoginPage from '../page-objects/login.page';
+import SecurePage from '../page-objects/secure.page';
 
 describe('login page', () => {
   it('should deny access with wrong credentials', async () => {

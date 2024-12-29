@@ -1,5 +1,5 @@
 import { browser } from '@wdio/globals';
-import homePage from '../pageObjects/home.page';
+import homePage from '../page-objects/home.page';
 
 describe('Network calls', () => {
   it('should load app.css', async () => {
