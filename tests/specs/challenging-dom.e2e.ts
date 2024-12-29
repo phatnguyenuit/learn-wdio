@@ -16,7 +16,7 @@ describe('ChallengingDom', () => {
     await expect(challengingDomPage.canvas).toBeDisplayed();
   });
 
-  it.only('should display fixed table', async () => {
+  it('should display fixed table', async () => {
     const tableHeaders = await challengingDomPage.tableHeaders;
     await expect(tableHeaders).toHaveText([
       'Lorem',
